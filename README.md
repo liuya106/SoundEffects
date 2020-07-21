@@ -1,6 +1,8 @@
 # SoundEffects
 A tiny program realized sound fade-in, fade-out, fade-away
 
+-----------------------------------------------------------------------
+
 make sure the audio file you want to change is in the same directory as the executable "effect"
 
 Type in shell:
