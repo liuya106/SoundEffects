@@ -3,7 +3,7 @@ A tiny program realized sound fade-in, fade-out, fade-away
 
 -----------------------------------------------------------------------
 
-make sure the audio file you want to change is in the same directory as the executable "effect"
+make sure the audio file "crow.wav" is in the same directory as the executable "effect"
 
 Type in shell:
 
@@ -17,4 +17,4 @@ OR
 
 xxd -g1 crow.wav | ./effects -pan 2000 | xxd -r > crow_short_fade.wav
 
-to yield a modified audio "crow_short_fade"
+to yield a modified audio "crow_short_fade.wav"
